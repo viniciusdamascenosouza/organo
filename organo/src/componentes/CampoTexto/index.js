@@ -1,6 +1,6 @@
 import "./CampoTexto.css";
 
-function CampoTexto() {
+const CampoTexto = () => {
     return (
         <div className="campo-texto">
             <label>Nome</label>
