@@ -2,8 +2,8 @@ import "./Botao.css";
 
 export const Botao = (props) => {
     return (
-        <button>
-            {props.text}
+        <button className="botao">
+            {props.children}
         </button>
     )
 }
