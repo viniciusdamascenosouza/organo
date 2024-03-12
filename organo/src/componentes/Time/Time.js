@@ -6,11 +6,11 @@ export const Time = (props) => {
   const fundoTime = {backgroundColor: props.corSecundaria}
 
   return (
-    (props.colaboradores.length > 0) && <section className="time" style={fundoTime}>
+    (props.colaboradores.length > 0) ? <section className="time" style={fundoTime}>
       <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
       <div className="colaboradores">
         {props.colaboradores.map(colaborador => <Colaborador nome={colaborador.nome} cargo={colaborador.cargo} imagem={colaborador.imagem} />)}
       </div>
-    </section>
+    </section> : ""
   );
 };
