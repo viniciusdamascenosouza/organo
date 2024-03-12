@@ -1,9 +1,12 @@
 import "./Time.css";
 
 export const Time = (props) => {
+
+  const fundoTime = {backgroundColor: props.corSecundaria}
+
   return (
-    <section className="time">
-      <h3>{props.nome}</h3>
+    <section className="time" style={fundoTime}>
+      <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
     </section>
   );
 };
