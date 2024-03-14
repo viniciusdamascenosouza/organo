@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+### Curso de
+# React: desenvolvendo com JavaScript
+## Alura | Instrutor: Vinicios Neves
+
+* Descreva as vantagens da utilização do React
+* Implemente componentes reativos
+* Investigue e analise mensagens de erro
+* Modifique e evolua componentes de acordo com a necessidade do projeto
+* Prototipe uma aplicação do zero até o deploy
+
+>>>>>>> 5612baca6e94461cfdd1d82658937d127605306b
