@@ -7,3 +7,6 @@
 * Investigue e analise mensagens de erro
 * Modifique e evolua componentes de acordo com a necessidade do projeto
 * Prototipe uma aplicação do zero até o deploy
+
+## Criamos o Organo, uma aplicação para organização de um grupo, com cards individuais.
+# Para ver mais: <a>https://organo-zeta-five.vercel.app/</a>
