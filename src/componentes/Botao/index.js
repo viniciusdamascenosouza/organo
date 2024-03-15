@@ -1,3 +1,9 @@
-import { Botao } from "./Botao";
+import './botao.css'
 
-export default Botao;
+const Botao = ({texto}) => {
+    return <button className="botao">
+        {texto}
+    </button>
+}
+
+export default Botao

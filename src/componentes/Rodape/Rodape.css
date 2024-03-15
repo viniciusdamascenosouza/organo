@@ -1,5 +1,5 @@
 .footer {
-    background-image: url(../../../public/imagens/fundo.png);
+    background: url(/public/imagens/fundo.png);
     background-color: #6278F7;
     color: #FFF;
     padding: 80px;
@@ -13,6 +13,6 @@
     margin-right: 32px;
 }
 
-.footer ul li>:last-child {
+.footer ul li:last-child {
     margin-right: 0;
 }
