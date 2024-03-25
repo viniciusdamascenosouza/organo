@@ -40,6 +40,13 @@
 
 .deletar {
     position: absolute;
-    right: -10;
+    right: 0;
     top: -10;
+
+    color: #efefef;
+    cursor: pointer;
+}
+
+.deletar:hover {
+    color: white;
 }
