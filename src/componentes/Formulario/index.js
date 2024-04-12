@@ -63,14 +63,14 @@ const Formulario = ({ aoCadastrar, times }) => {
           label="Nome"
           placeholder="Digite o nome do seu time"
           valor={nome}
-          aoAlterado={valor => setNomeTime(valor)}
+          aoAlterado={(valor) => setNomeTime(valor)}
         />
         <CampoTexto
           obrigatorio
           label="Cor"
           placeholder="Digite a cor do time"
           valor={cargo}
-          aoAlterado={valor => setCorTime(valor)}
+          aoAlterado={(valor) => setCorTime(valor)}
         />
         <Botao texto="Criar um novo time" />
       </form>
