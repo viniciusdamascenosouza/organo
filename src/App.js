@@ -242,10 +242,12 @@ function App() {
   const [colaboradores, setColaboradores] = useState(inicial);
 
   function deletarColaborador(id) {
-    setColaboradores(colaboradores.filter(colaborador => colaborador.id !== id));
+    setColaboradores(
+      colaboradores.filter((colaborador) => colaborador.id !== id)
+    );
   }
 
-  function mudarCor(cor, id) {
+  function mudarCorDoTime(cor, id) {
     setTimes(
       times.map((time) => {
         if (time.id === id) {
@@ -256,10 +258,15 @@ function App() {
     );
   }
 
+  function cadastrarTime(novoTime) {
+    setTimes([...times, { ...novoTime, id: uuidv4() }]);
+  }
+
   return (
     <div>
       <Banner />
       <Formulario
+        cadastrarTime={cadastrarTime}
         times={times.map((time) => time.nome)}
         aoCadastrar={(colaborador) =>
           setColaboradores([...colaboradores, colaborador])
@@ -269,7 +276,7 @@ function App() {
         <h1>Minha organização</h1>
         {times.map((time, indice) => (
           <Time
-            mudarCor={mudarCor}
+            mudarCor={mudarCorDoTime}
             key={indice}
             time={time}
             colaboradores={colaboradores.filter(
